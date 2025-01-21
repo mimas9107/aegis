@@ -14,7 +14,7 @@ def about():
 def main():
 
     work_dir = sys.path[0]
-    data_dir = work_dir+"/aegis"
+    data_dir = work_dir+"/gpx"
     output_filename = "output.txt"
     print("目前工作目錄={}".format(work_dir))
     print("讀取資料目錄={}".format(data_dir))
